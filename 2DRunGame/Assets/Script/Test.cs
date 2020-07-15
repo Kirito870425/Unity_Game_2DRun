@@ -1,18 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class Test : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject CatPlayer;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        //CatPlayer.transform.Translate(1*Time.deltaTime, 0, 0);
     }
 }

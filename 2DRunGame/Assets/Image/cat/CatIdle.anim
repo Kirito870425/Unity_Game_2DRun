@@ -4,7 +4,8 @@
 AnimationClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: CatIdle
   serializedVersion: 6
   m_Legacy: 0
@@ -32,12 +33,6 @@ AnimationClip:
       value: {fileID: 21300000, guid: 4dd38fa8b0750ae41988d8c5f081eed1, type: 3}
     - time: 0.5
       value: {fileID: 21300000, guid: e8f3c816b28fc644fa24dbf6fc9122b1, type: 3}
-    - time: 0.5833333
-      value: {fileID: 21300000, guid: 5faf334e70676d942946fd4fcf89adc6, type: 3}
-    - time: 0.6666667
-      value: {fileID: 21300000, guid: 2c3b0355664a402468c08bc24acf6e59, type: 3}
-    - time: 0.75
-      value: {fileID: 21300000, guid: 8101f84a17c525c4e9f845334ea839f3, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -64,15 +59,12 @@ AnimationClip:
     - {fileID: 21300000, guid: e4508ab2adec81042937fc84c2086805, type: 3}
     - {fileID: 21300000, guid: 4dd38fa8b0750ae41988d8c5f081eed1, type: 3}
     - {fileID: 21300000, guid: e8f3c816b28fc644fa24dbf6fc9122b1, type: 3}
-    - {fileID: 21300000, guid: 5faf334e70676d942946fd4fcf89adc6, type: 3}
-    - {fileID: 21300000, guid: 2c3b0355664a402468c08bc24acf6e59, type: 3}
-    - {fileID: 21300000, guid: 8101f84a17c525c4e9f845334ea839f3, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.8333333
+    m_StopTime: 0.5833333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -91,5 +83,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_GenerateMotionCurves: 0
   m_Events: []
