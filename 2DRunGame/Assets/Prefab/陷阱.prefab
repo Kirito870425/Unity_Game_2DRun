@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6029810051492692584}
   - component: {fileID: 5168791039611226435}
+  - component: {fileID: 5172453035990572300}
   m_Layer: 0
-  m_Name: Mace
+  m_Name: "\u9677\u9631"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,3 +82,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &5172453035990572300
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9041967547809531040}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0459826}
+  serializedVersion: 2
+  m_Radius: 0.8059826
