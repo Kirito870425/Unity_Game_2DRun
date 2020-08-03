@@ -20,44 +20,60 @@ public class Player : MonoBehaviour
     public AudioClip soundJump;
     public AudioClip soundCoin;
     
-    public Animator ani;
+    public Animator catanimator;
     public Rigidbody2D rigi;
     public CapsuleCollider2D cap;
     #endregion
 
     #region 方法
-    public void PlayerMove()
+    /// <summary>移動</summary>
+    public void Move()
     {
         
     }
-    public void PlayerJump()
+    /// <summary>跳躍</summary>
+    public void Jump()
     {
-
+        bool playerspace = Input.GetKeyDown(KeyCode.Space);
+        catanimator.SetBool("CatJump", playerspace);
     }
-    public void PlayerSlider()
+    /// <summary>滑行</summary>
+    public void Slider()
     {
+        bool playerslider = Input.GetKeyDown(KeyCode.LeftControl);
+        catanimator.SetBool("CatSllder", playerslider);
 
+        //站 0  0          2 4.2
+        //滑 0 -1.1      2 2
     }
+    /// <summary>吃金幣</summary>
     public void EatCoin()
     {
 
     }
-    public void PlayerHit()
+    /// <summary>受傷</summary>
+    public void Hit()
     {
 
     }
-    public void PlayerDead()
+    /// <summary>死亡</summary>
+    public void Dead()
     {
 
     }
-    public void PlayerGO()
+    /// <summary>過關</summary>
+    public void Pass()
     {
 
     }
     #endregion
 
     #region 事件
-
+    private void Update()
+    {
+        Jump();
+        Slider();
+    }
     #endregion
 
 }
