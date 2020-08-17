@@ -117,6 +117,7 @@ public class Player : MonoBehaviour
         speed = 0;
         dead = true;
         texttitle.text = "還差的遠呢 嫩";
+        textfinalcoin.text = "本次金幣數量" + coin;
     }
     public Text texttitle;
     public Text textfinalcoin;
