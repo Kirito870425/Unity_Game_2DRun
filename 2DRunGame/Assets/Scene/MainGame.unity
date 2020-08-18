@@ -923,7 +923,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7E7C\u7E8C\u904A\u6232"
+  m_Text: "\u91CD\u65B0\u904A\u6232"
 --- !u!222 &293971438
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7104,8 +7104,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2, y: 4.2}
+  m_Offset: {x: 0.09618688, y: -0.012023449}
+  m_Size: {x: 2.5771203, y: 4.5126076}
   m_Direction: 0
 --- !u!114 &749013624
 MonoBehaviour:
@@ -7120,7 +7120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jump: 400
+  jump: 350
   hp: 500
   imagehp: {fileID: 1678307848}
   soundHit: {fileID: 8300000, guid: 541da393339e29a439b3505357c4fd25, type: 3}
@@ -7148,7 +7148,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e2252bccdb7cfd8489637c58e8f844cd, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -12641,7 +12641,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dc99bb6b5bb696b4b8787f2b24bda1e3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
